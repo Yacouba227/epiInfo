@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+ion-list .cardList{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+ion-icon{
+    font-size: 32px;
+    color: rgb(105, 15, 15);
+}
