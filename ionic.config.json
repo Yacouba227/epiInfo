@@ -1,0 +1,7 @@
+{
+  "name": "epiInfo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
