@@ -9,16 +9,11 @@
 
 <ion-content [fullscreen]="true">
   <ion-card>
-    <ion-card-content> Nous sommes situés: <br>
-      Rue Issa Béri, Plateau II, échangeur Mali Bero
-couloir en face du Ministère de la justice à 100m
-du goudron
+    <ion-card-content>
+      <ion-card-subtitle>Nous sommes situés:</ion-card-subtitle> <br />
+      Rue Issa Béri, Plateau II, échangeur Mali Bero couloir en face du
+      Ministère de la justice à 100m du goudron
     </ion-card-content>
-    
-    <ion-card-content> Nous sommes situés: <br>
-      
-    </ion-card-content>
-
   </ion-card>
   <ion-card>
     <ion-card-content>
@@ -26,37 +21,59 @@ du goudron
         <ion-item class="cardList">
           <ion-icon name="call"></ion-icon>
           <ion-label>Veuillez nous contacter</ion-label>
-          <ion-button color="succes"><a href="tel:+227 80577015"><ion-icon name="arrow-forward"></ion-icon></a></ion-button>
+          <ion-button color="succes"
+            ><a href="tel:+227 80577015"
+              ><ion-icon name="arrow-forward"></ion-icon></a
+          ></ion-button>
         </ion-item>
 
         <ion-item class="cardList">
           <ion-icon name="logo-whatsapp"></ion-icon>
-          <ion-label>Contact nous sur whatsapp</ion-label>
-          <ion-button href={{url}} color="succes"><ion-icon name="arrow-forward"></ion-icon></ion-button>
+          <ion-label>Ecrie nous sur whatsapp</ion-label>
+          <ion-button href="{{url}}" color="succes"
+            ><ion-icon name="arrow-forward"></ion-icon
+          ></ion-button>
         </ion-item>
 
         <ion-item class="cardList">
           <ion-icon name="logo-facebook"></ion-icon>
           <ion-label>Notre page facebook</ion-label>
-          <ion-button href={{essaie}} color="succes"><ion-icon name="arrow-forward"></ion-icon></ion-button>
+          <ion-button href="{{essaie}}" color="succes"
+            ><ion-icon name="arrow-forward"></ion-icon
+          ></ion-button>
         </ion-item>
 
         <ion-item class="cardList">
           <ion-icon name="mail"></ion-icon>
           <ion-label>Veuillez nous ecrire</ion-label>
-          <ion-button color="succes"><a href="mailto:halidouyacouba999@gmail.com"><ion-icon name="arrow-forward"></ion-icon></a></ion-button>
+          <ion-button color="succes"
+            ><a href="mailto:halidouyacouba999@gmail.com"
+              ><ion-icon name="arrow-forward"></ion-icon></a
+          ></ion-button>
         </ion-item>
 
         <ion-item class="cardList">
           <ion-icon name="logo-youtube"></ion-icon>
           <ion-label>notre chaine youtube</ion-label>
-          <ion-button href={{ytube}} color="succes"><ion-icon name="arrow-forward"></ion-icon></ion-button>
+          <ion-button href="{{ytube}}" color="succes"
+            ><ion-icon name="arrow-forward"></ion-icon
+          ></ion-button>
         </ion-item>
 
         <ion-item class="cardList">
           <ion-icon name="globe"></ion-icon>
           <ion-label>Notre site web</ion-label>
-          <ion-button href={{sweb}} color="succes"><ion-icon name="arrow-forward"></ion-icon></ion-button>
+          <ion-button href="{{sweb}}" color="succes"
+            ><ion-icon name="arrow-forward"></ion-icon
+          ></ion-button>
+        </ion-item>
+
+        <ion-item class="cardList">
+          <ion-icon name="compass"></ion-icon>
+          <ion-label>Notre localisation</ion-label>
+          <ion-button href="{{local}}" color="succes"
+            ><ion-icon name="arrow-forward"></ion-icon
+          ></ion-button>
         </ion-item>
       </ion-list>
     </ion-card-content>

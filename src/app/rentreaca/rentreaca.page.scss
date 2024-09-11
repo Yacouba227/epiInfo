@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+* {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+ion-toolbar{
+    --background: rgb(162, 32, 42);
+    color: white;
+  }
+ion-card-title,
+ion-card-subtitle{
+    font-size: 22px;
+    color: rgb(162, 32, 42);
+    font-weight: bold;
+    margin-top: 2%;
+}
+.card ion-card-title{
+    margin-left: 4%;
+}
+ion-card-content{
+    font-size: 18px;
+}

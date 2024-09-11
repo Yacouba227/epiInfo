@@ -4,14 +4,25 @@
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+}y
+ion-toolbar{
+    --background: rgb(162, 32, 42);
+    color: white;
+  }
+ion-card-subtitle{
+    font-size: 22px;
+    color: rgb(162, 32, 42);
+    font-weight: bold;
 }
 ion-list .cardList{
     text-align: center;
     display: flex;
     justify-content: space-around;
     justify-items: center;
+    margin-top: 2%;  
+    margin-bottom: 1%;  
 }
 ion-icon{
     font-size: 32px;
-    color: rgb(105, 15, 15);
+    color: rgb(162, 32, 42);
 }

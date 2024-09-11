@@ -1,9 +1,22 @@
+ion-toolbar{
+  --background: rgb(162, 32, 42);
+  color: white;
+}
 ion-toolbar ion-title{
   text-align: end;
 }
-img{
-  border-radius: 0 0 30% 30%;
+.logo{
+  margin: 0;
+  text-align: center;
+  border-radius: 0px 0px 100px 100px;
+}
+.logo img{
+  width: 300px;
 }
 ion-content ion-button{
   margin-left: 3%;
+}
+ion-button{
+  --background: rgb(162, 32, 42);
+  margin-bottom: 8%;
 }

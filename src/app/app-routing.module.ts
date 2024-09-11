@@ -19,6 +19,42 @@ const routes: Routes = [
     path: 'contact',
     loadChildren: () => import('./contact/contact.module').then( m => m.ContactPageModule)
   },
+  {
+    path: 'nomission',
+    loadChildren: () => import('./nomission/nomission.module').then( m => m.NomissionPageModule)
+  },
+  {
+    path: 'noremise',
+    loadChildren: () => import('./noremise/noremise.module').then( m => m.NoremisePageModule)
+  },
+  {
+    path: 'rentreaca',
+    loadChildren: () => import('./rentreaca/rentreaca.module').then( m => m.RentreacaPageModule)
+  },
+  {
+    path: 'filiere',
+    loadChildren: () => import('./filiere/filiere.module').then( m => m.FilierePageModule)
+  },
+  {
+    path: 'inscription',
+    loadChildren: () => import('./inscription/inscription.module').then( m => m.InscriptionPageModule)
+  },
+  {
+    path: 'fscolarite',
+    loadChildren: () => import('./fscolarite/fscolarite.module').then( m => m.FscolaritePageModule)
+  },
+  {
+    path: 'commentaire',
+    loadChildren: () => import('./commentaire/commentaire.module').then( m => m.CommentairePageModule)
+  },
+  {
+    path: 'galeri',
+    loadChildren: () => import('./galeri/galeri.module').then( m => m.GaleriPageModule)
+  },
+  {
+    path: 'versement',
+    loadChildren: () => import('./versement/versement.module').then( m => m.VersementPageModule)
+  },
 ];
 
 @NgModule({

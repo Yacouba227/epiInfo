@@ -8,9 +8,88 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">acceuil</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-card>
+    <ion-card-content>
+      <ion-card-subtitle>Appropos de nous:</ion-card-subtitle> <br />
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eos minima
+      eligendi! Explicabo odit exercitationem aperiam excepturi dolor quis
+      vitae, iste earum culpa ips
+    </ion-card-content>
+  </ion-card>
+  <ion-card class="contenu">
+    <ion-card-content class="second">
+      <ion-button routerLink="/nomission" class="succes">
+        <ion-icon name="pulse"></ion-icon>
+        <ion-label>Notre mission</ion-label>
+      </ion-button>
+
+      <ion-button routerLink="/noremise" class="succes">
+        <ion-icon name="analytics"></ion-icon>
+        <ion-label>Nos remise</ion-label>
+      </ion-button>
+    </ion-card-content>
+    <ion-card-content class="first">
+      <ion-button routerLink="/fscolarite" class="succes">
+        <ion-icon name="cash"></ion-icon>
+        <ion-label>Frais scolarite</ion-label>
+      </ion-button>
+
+      <ion-button routerLink="/rentreaca" class="succes">
+        <ion-icon name="calendar"></ion-icon>
+        <ion-label>Rentre academique</ion-label>
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-list>
+      <ion-item class="cardList">
+        <ion-icon name="school"></ion-icon>
+        <ion-label>Nos niveaux et filieres</ion-label>
+        <ion-button routerLink="/filiere" color="succes">
+          <ion-icon name="arrow-forward"></ion-icon>
+        </ion-button>
+      </ion-item>
+
+      <!-- <ion-item class="cardList">
+        <ion-icon name="git-branch"></ion-icon>
+        <ion-label>Nos filiere</ion-label>
+        <ion-button color="succes"
+          ><ion-icon name="arrow-forward"></ion-icon
+        ></ion-button>
+      </ion-item> -->
+
+      <ion-item class="cardList">
+        <ion-icon name="speedometer"></ion-icon>
+        <ion-label>Tranche de versement</ion-label>
+        <ion-button routerLink="/versement" color="succes"
+          ><ion-icon name="arrow-forward"></ion-icon
+        ></ion-button>
+      </ion-item>
+
+      <ion-item class="cardList">
+        <ion-icon name="images"></ion-icon>
+        <ion-label>Galerie</ion-label>
+        <ion-button routerLink="/galeri" color="succes"
+          ><ion-icon name="arrow-forward"></ion-icon
+        ></ion-button>
+      </ion-item>
+
+      <ion-item class="cardList">
+        <ion-icon name="happy"></ion-icon>
+        <ion-label>Quelques commentaires</ion-label>
+        <ion-button routerLink="/commentaire" color="succes"
+          ><ion-icon name="arrow-forward"></ion-icon
+        ></ion-button>
+      </ion-item>
+
+      <ion-item class="cardList">
+        <ion-icon name="folder"></ion-icon>
+        <ion-label>Dossier d'inscription et tenue</ion-label>
+        <ion-button routerLink="/inscription" color="succes"
+          ><ion-icon name="arrow-forward"></ion-icon>
+        </ion-button>
+      </ion-item>
+    </ion-list>
+  </ion-card>
 </ion-content>

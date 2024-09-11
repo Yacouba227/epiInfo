@@ -1,0 +1,30 @@
+
+ion-toolbar{
+  --background: rgb(162, 32, 42);
+  color: white;
+}
+ion-card-subtitle {
+  font-size: 25px;
+  color: rgb(162, 32, 42);
+  font-weight: bold;
+}
+ion-card-title {
+    margin-left: 5%;
+    margin-top: 4%;
+    font-size: 20px;
+    color: rgb(162, 32, 42);
+    font-weight: bold;
+  }
+  ion-content ion-title {
+    font-size: 20px;
+    color: rgb(162, 32, 42);
+    font-weight: bold;
+  }
+  .marge ion-card{
+    text-align: center;
+  }
+  .couleur{
+    color: rgb(162, 32, 42);
+    font-size: 18px;
+    font-weight: 800;
+  }
