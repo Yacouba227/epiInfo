@@ -2,8 +2,28 @@ ion-toolbar {
     --background: rgb(162, 32, 42);
     color: white;
   }
-  ion-card-subtitle {
+
+  ion-card-subtitle{
     font-size: 25px;
     color: rgb(162, 32, 42);
     font-weight: bold;
+  }
+  ion-card-title {
+    font-size: 25px;
+    color: rgb(162, 32, 42);
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  .memeCard{
+    text-align: center;
+  }
+  .title{
+    color: rgb(162, 32, 42);
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .montant{
+    font-weight: 800;
+    color: rgb(162, 32, 42);
   }
