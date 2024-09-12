@@ -4,25 +4,39 @@
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-}y
-ion-toolbar{
-    --background: rgb(162, 32, 42);
-    color: white;
-  }
+}
+ion-toolbar {
+  --background: rgb(162, 32, 42);
+  color: white;
+}
 ion-card-subtitle{
     font-size: 22px;
     color: rgb(162, 32, 42);
     font-weight: bold;
 }
+.btn{
+  width: 100%;
+}
 ion-list .cardList{
+  width: 100%;
     text-align: center;
     display: flex;
     justify-content: space-around;
     justify-items: center;
-    margin-top: 2%;  
-    margin-bottom: 1%;  
 }
-ion-icon{
-    font-size: 32px;
-    color: rgb(162, 32, 42);
+.un{
+  color: rgb(2, 198, 64);
+}
+.deux{
+  color: blue;
+}
+.trois{
+  color: rgb(224, 92, 78);
+}
+.quatre{
+  color: rgb(73, 215, 255);
+}
+.lien{
+  color: rgb(162, 32, 42);
+  font-size: 25px;
 }

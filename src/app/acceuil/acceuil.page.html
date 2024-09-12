@@ -43,13 +43,15 @@
 
   <ion-card>
     <ion-list>
-      <ion-item class="cardList">
-        <ion-icon name="school"></ion-icon>
-        <ion-label>Nos niveaux et filieres</ion-label>
-        <ion-button routerLink="/filiere" color="succes">
-          <ion-icon name="arrow-forward"></ion-icon>
-        </ion-button>
-      </ion-item>
+      <ion-button routerLink="/filiere" color="succes" class="btn">
+        <ion-item class="cardList">
+          <ion-icon name="school" class="filier"></ion-icon>
+          <ion-label>Nos niveaux et filieres</ion-label>
+          <!-- <ion-button color="succes">
+            <ion-icon name="arrow-forward"></ion-icon>
+          </ion-button> -->
+        </ion-item>
+      </ion-button>
 
       <!-- <ion-item class="cardList">
         <ion-icon name="git-branch"></ion-icon>
@@ -59,37 +61,45 @@
         ></ion-button>
       </ion-item> -->
 
-      <ion-item class="cardList">
-        <ion-icon name="speedometer"></ion-icon>
-        <ion-label>Tranche de versement</ion-label>
-        <ion-button routerLink="/versement" color="succes"
-          ><ion-icon name="arrow-forward"></ion-icon
-        ></ion-button>
-      </ion-item>
+      <ion-button routerLink="/versement" color="succes" class="btn">
+        <ion-item class="cardList">
+          <ion-icon name="card-outline" class="versement"></ion-icon>
+          <ion-label>Tranche de versement</ion-label>
+          <!-- <ion-button color="succes"
+            ><ion-icon name="arrow-forward"></ion-icon
+          ></ion-button> -->
+        </ion-item>
+      </ion-button>
 
-      <ion-item class="cardList">
-        <ion-icon name="images"></ion-icon>
-        <ion-label>Galerie</ion-label>
-        <ion-button routerLink="/galeri" color="succes"
-          ><ion-icon name="arrow-forward"></ion-icon
-        ></ion-button>
-      </ion-item>
+      <ion-button routerLink="/galeri" color="succes" class="btn">
+        <ion-item class="cardList">
+          <ion-icon name="images"></ion-icon>
+          <ion-label>Galerie</ion-label>
+          <!-- <ion-button color="succes"
+            ><ion-icon name="arrow-forward"></ion-icon
+          ></ion-button> -->
+        </ion-item>
+      </ion-button>
 
-      <ion-item class="cardList">
-        <ion-icon name="happy"></ion-icon>
-        <ion-label>Quelques commentaires</ion-label>
-        <ion-button routerLink="/commentaire" color="succes"
-          ><ion-icon name="arrow-forward"></ion-icon
-        ></ion-button>
-      </ion-item>
+      <ion-button routerLink="/commentaire" color="succes" class="btn">
+        <ion-item class="cardList">
+          <ion-icon name="arrow-redo-outline" class="comment"></ion-icon>
+          <ion-label>Quelques commentaires</ion-label>
+          <!-- <ion-button color="succes"
+            ><ion-icon name="arrow-forward"></ion-icon
+          ></ion-button> -->
+        </ion-item>
+      </ion-button>
 
-      <ion-item class="cardList">
-        <ion-icon name="folder"></ion-icon>
-        <ion-label>Dossier d'inscription et tenue</ion-label>
-        <ion-button routerLink="/inscription" color="succes"
-          ><ion-icon name="arrow-forward"></ion-icon>
-        </ion-button>
-      </ion-item>
+      <ion-button routerLink="/inscription" color="succes" class="btn">
+        <ion-item class="cardList">
+          <ion-icon name="folder" class="dossier"></ion-icon>
+          <ion-label>Dossier d'inscription</ion-label>
+          <!-- <ion-button color="succes"
+            ><ion-icon name="arrow-forward"></ion-icon>
+          </ion-button> -->
+        </ion-item>
+      </ion-button>
     </ion-list>
   </ion-card>
 </ion-content>
