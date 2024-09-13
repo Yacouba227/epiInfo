@@ -13,7 +13,13 @@ ion-toolbar ion-title{
 .logo img{
   width: 300px;
 }
-ion-button{
+ion-buttons{
+  display: flex;
+  justify-content: space-around;
+}
+ion-buttons ion-button{
   --background: rgb(162, 32, 42);
+  color: white;
+  font-weight: bold;
   margin-bottom: 8%;
 }
