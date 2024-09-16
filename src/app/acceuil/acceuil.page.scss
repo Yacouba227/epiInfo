@@ -15,7 +15,12 @@ ion-card-subtitle {
 }
 .percentage{
   padding: 0;
-  margin-bottom: -12px;
+  text-align: center;
+}
+.success {
+  width: 100%;
+  --background: rgb(162, 32, 42);
+  text-align: center;
 }
 .percentage ion-label{
   font-size: 12px;
