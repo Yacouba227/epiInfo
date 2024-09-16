@@ -1,55 +1,27 @@
-ion-toolbar{
+ion-toolbar {
   --background: rgb(162, 32, 42);
   color: white;
 }
-ion-toolbar ion-title{
+ion-toolbar ion-title {
   text-align: end;
 }
-ion-card-title{
-  margin-top: 4%;
-  margin-left: 3%;
-  font-weight: bold;
-  color: rgb(162, 32, 42);
-}
-ion-card-subtitle{
-  margin-top: 4%;
-  margin-left: 77%;
-  font-weight: bold;
-  font-size: 18px;
-}
-.logo{
+.logo {
   margin: 0;
   text-align: center;
   border-radius: 0px 0px 100px 100px;
 }
-.logo img{
+.logo img {
   width: 250px;
 }
-ion-buttons{
+ion-buttons {
   display: flex;
   justify-content: space-around;
 }
-ion-buttons ion-button{
+ion-buttons ion-button {
   --background: rgb(162, 32, 42);
   color: white;
+  font-size: 12px;
   font-weight: bold;
   margin-top: 2%;
   margin-bottom: 3%;
-}
-.post{
-  margin: 0;
-  padding: 0;
-  display: flex;
-  text-align: center;
-}
-.post ion-card{
-  width: 300px;
-}
-.text-color{
-font-size: 13px;
-}
-.pourcentage{
-  color: rgb(162, 32, 42);
-  font-size: 15px;
-  font-weight: bold;
 }

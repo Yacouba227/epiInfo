@@ -55,6 +55,10 @@ const routes: Routes = [
     path: 'versement',
     loadChildren: () => import('./versement/versement.module').then( m => m.VersementPageModule)
   },
+  {
+    path: 'pourcentage',
+    loadChildren: () => import('./pourcentage/pourcentage.module').then( m => m.PourcentagePageModule)
+  },
 ];
 
 @NgModule({

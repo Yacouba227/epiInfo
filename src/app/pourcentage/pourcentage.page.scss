@@ -1,0 +1,39 @@
+ion-toolbar {
+    --background: rgb(162, 32, 42);
+    color: white;
+  }
+  ion-card-title {
+    margin-top: 4%;
+    margin-left: 3%;
+    font-weight: bold;
+    color: rgb(162, 32, 42);
+  }
+  ion-card-subtitle{
+    font-size: 22px;
+    color: rgb(162, 32, 42);
+    font-weight: bold;
+    margin-top: 2%;
+}
+  .title {
+    margin-top: 4%;
+    margin-left: 77%;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .post{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+  }
+  .post ion-card{
+    width: 300px;
+  }
+  .text-color{
+  font-size: 13px;
+  }
+  .pourcentage{
+    color: rgb(162, 32, 42);
+    font-size: 15px;
+    font-weight: bold;
+  }
