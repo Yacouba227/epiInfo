@@ -7,7 +7,13 @@ ion-toolbar {
     color: rgb(162, 32, 42);
     font-weight: bold;
   }
-.picture{
-    border-radius: 50px 120px 0px 30px;
-    width: 94%;
+ion-card ion-img{
+  width: 180px;
+  height: 180px;
+    border-radius: 8px;
+    margin-bottom: 3%;
+  }
+  ion-row{
+    display: flex;
+    justify-content: space-around;
   }

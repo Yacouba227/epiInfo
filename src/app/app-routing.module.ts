@@ -62,7 +62,11 @@ const routes: Routes = [
   {
     path: 'motdg',
     loadChildren: () => import('./motdg/motdg.module').then( m => m.MotdgPageModule)
+  },  {
+    path: 'image-viewer',
+    loadChildren: () => import('./image-viewer/image-viewer.module').then( m => m.ImageViewerPageModule)
   },
+
 ];
 
 @NgModule({
