@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { MotdgPageRoutingModule } from './motdg-routing.module';
 
 import { MotdgPage } from './motdg.page';
+import { PhotoViewer } from '@ionic-native/photo-viewer/ngx';
 
 @NgModule({
   imports: [
@@ -15,6 +16,7 @@ import { MotdgPage } from './motdg.page';
     IonicModule,
     MotdgPageRoutingModule
   ],
-  declarations: [MotdgPage]
+  declarations: [MotdgPage],
+  providers: [PhotoViewer]
 })
 export class MotdgPageModule {}

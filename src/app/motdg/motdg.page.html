@@ -9,6 +9,17 @@
 
 <ion-content [fullscreen]="true">
   <ion-card>
+    <ion-card-content class="entete">
+      <ion-col *ngFor="let image of images">
+        <ion-img (click)="viewImage(image)" [src]="image"></ion-img>
+      </ion-col>
+      <ion-card-content>
+        <label for="">Nom: Hamani Mounkaila</label><br>
+        <label for="">Prénom: Mahamadou</label><br>
+        <label for="">Profession: Directeur Général </label><br>
+        <label for="">Lieu: Epi-Niger</label>
+      </ion-card-content>
+    </ion-card-content>
     <ion-card-content>
       <!-- Chers étudiants, chers parents, chers partenaires, Bienvenue à EPI-Niger,
       l’École Privée d’Ingénierie du Niger, un établissement qui incarne
@@ -29,7 +40,6 @@
       vous invite à découvrir tout ce que notre institution a à offrir et à
       partager avec nous cette passion pour l’excellence. Ensemble, continuons à
       bâtir un avenir prometteur pour nos étudiants et notre nation. -->
-
       Chers étudiants, parents, partenaires et amis de EPI-Niger, C’est avec une
       grande fierté et un immense honneur que je vous adresse ces quelques mots
       en tant que Directeur Général de l’École Privée d’Ingénierie du Niger

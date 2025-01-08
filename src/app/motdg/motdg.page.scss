@@ -4,4 +4,11 @@ ion-toolbar {
   }
   ion-card-content{
     font-style: italic;
-  }
+  } 
+ion-card .entete{
+  display: flex;
+  justify-content: space-between;
+}
+ion-col {
+  width: 40%;
+}
